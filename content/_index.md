@@ -2,7 +2,7 @@
 title: Manifesto
 ---
 
-[<img src="/images/bugless.png" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/goodroot/hugo-classic)
+[<img src="/images/bugless.png" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />](https://github.com/bugless)
 
 # Bugless Development Manifesto
 
