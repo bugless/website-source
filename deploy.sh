@@ -5,6 +5,10 @@ echo -e "Init/updating git submodules"
 
 git submodule init && git submodule update
 
+cd public
+git checkout master
+cd ..
+
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
