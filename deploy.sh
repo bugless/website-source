@@ -1,7 +1,16 @@
 #!/bin/bash
 set -euo pipefail
 
-echo -e "Init/updating git submodules"
+function log {
+  echo -e "\033[0;32m$1\033[0m"
+}
+
+log "Checking out master"
+
+git checkout master
+git pull origin master
+
+log "Init/updating git submodules"
 
 git submodule init && git submodule update
 
@@ -9,7 +18,7 @@ cd public
 git checkout master
 cd ..
 
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+log "Deploying updates to GitHub..."
 
 # Build the project.
 hugo
@@ -33,7 +42,7 @@ git push origin master
 # Come Back up to the Project Root
 cd ..
 
-echo -e "\033[0,32mCommiting submodule version to master\033[0m"
+log "Commiting submodule version to master"
 
 git add public
 git commit -m "$msg"
