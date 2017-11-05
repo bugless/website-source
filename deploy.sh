@@ -1,4 +1,9 @@
 #!/bin/bash
+set -euo pipefail
+
+echo -e "Init/updating git submodules"
+
+git submodule init && git submodule update
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
