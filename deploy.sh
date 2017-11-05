@@ -32,3 +32,9 @@ git push origin master
 
 # Come Back up to the Project Root
 cd ..
+
+echo -e "\033[0,32mCommiting submodule version to master\033[0m"
+
+git add public
+git commit -m "$msg"
+git push
