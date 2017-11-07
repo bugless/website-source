@@ -8,7 +8,7 @@ title: Manifesto
 
 1. Every bug stems from a line of code. Every line of code is written deliberately by a programmer. Therefore, every bug is created deliberately by a programmer.
 
-2. A programmer must note write buggy code.
+2. A programmer must not write buggy code.
 
 3. Sporadic unexpected features are intrinsic to buglessly developed projects.
 
@@ -16,4 +16,4 @@ title: Manifesto
 
 5. ?
 
-6. What you think is bug is not a bug. It is an opportunity for a feature.
+6. What you think is a bug is not a bug. It is an opportunity for a feature.
