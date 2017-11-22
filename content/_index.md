@@ -12,8 +12,10 @@ title: Manifesto
 
 3. Sporadic unexpected features are intrinsic to buglessly developed projects.
 
-4. ?
+4. Tested code can only pass the test. Untested code can do anything.
 
-5. ?
+5. No bugs means no tests required.
 
 6. What you think is a bug is not a bug. It is an opportunity for a feature.
+
+7. Thou shall not git blame.
