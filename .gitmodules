@@ -1,7 +1,3 @@
 [submodule "themes/hugo-classic"]
 	path = themes/hugo-classic
 	url = git@github.com:goodroot/hugo-classic.git
-[submodule "public"]
-	path = public
-	url = git@github.com:bugless/bugless.github.io.git
-	branch = master
