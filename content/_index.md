@@ -18,4 +18,4 @@ title: Manifesto
 
 6. What you think is a bug is not a bug. It is an opportunity for a feature.
 
-7. You may not git blame.
+7. Do not git blame.
