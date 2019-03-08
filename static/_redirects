@@ -1,0 +1,11 @@
+# Redirect domain aliases to primary domain
+http://bugless.dev/* https://buglessdevelopment.com/:splat 301!
+https://bugless.dev/* https://buglessdevelopment.com/:splat 301!
+http://www.bugless.dev/* https://buglessdevelopment.com/:splat 301!
+https://www.bugless.dev/* https://buglessdevelopment.com/:splat 301!
+
+# Should we make bugless.dev the default?
+# http://buglessdevelopment.com/* https://bugless.dev/:splat 301!
+# https://buglessdevelopment.com/* https://bugless.dev/:splat 301!
+# http://www.buglessdevelopment.com/* https://bugless.dev/:splat 301!
+# https://www.buglessdevelopment.com/* https://bugless.dev/:splat 301!
